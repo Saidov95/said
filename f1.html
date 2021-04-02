@@ -13,11 +13,11 @@
 
     <script>
         prompt
-let userPass =  ("Введите пароль");
+let userPass1 =  ("Введите пароль");
 
-let pass = "admin";
+let pass1 = "admin";
 
-let result = userPass == pass
+let result = userPass1 == pass1
 
 console.log(result)
 
@@ -48,16 +48,7 @@ else
    }
 console.log(`конец`)
 
-let a = 47516;
-let b = 47599;
 
-if(a > b)
-{
-    console.log(a)
-}
-else{
-    console.log(b)
-};
 
 
 
@@ -65,20 +56,34 @@ else{
 
 
 let userlogin = prompt (`Login`);
+let userPass = prompt (`Pass`);
 
  let login = `adlan`;
+ let pass = `adlan889`;
 
- if(userlogin === login)
+ if(userlogin === login && userPass === pass)
  {
      console.log(`welcome`);
  }
  else
  {
-     console.log(`error`);
+     console.log(`Неверный логин или пароль`);
  }
 
 
+let a = 500;
+let b = 50;
+let c = 300;
 
+if(a > b && a > c){
+console.log(a)
+}
+else if (b > c){
+    console.log(b)
+}
+else{
+    console.log(c)
+}
 
 
 
